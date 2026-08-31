@@ -2,6 +2,17 @@
 
 Newest first. One short entry each: what we chose, and why.
 
+## Made the repo public, and kept the PRD out of it
+
+2026-08-31. GitHub's branch protection (classic rules and the newer Rulesets) isn't
+enforced on a *private* repo without a paid Team/Enterprise organization plan. To get
+real "no direct pushes to main" enforcement for free, we made the repo public instead.
+`klink-prd.md` (business plan details, feature roadmap, pricing thinking) was removed
+from git history entirely (via `git filter-repo` + force-push, done before anyone but
+Carolin had cloned the repo) and is now `.gitignore`d - it lives locally and gets
+shared directly, never pushed. If a screen needs product-spec context and the file
+isn't present locally, ask the human for a copy rather than guessing.
+
 ## Pinned Expo to SDK 54, not the newest (57)
 
 2026-08-31. Scaffolding started on SDK 57 (the default for new projects), but the

@@ -37,6 +37,9 @@ yarn-error.*
 # per-developer local settings
 .claude/settings.local.json
 
+# business-sensitive - never push this to the (public) repo; share it directly instead
+klink-prd.md
+
 # typescript
 *.tsbuildinfo
 
