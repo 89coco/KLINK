@@ -140,4 +140,4 @@ npm run lint         # Lint
 | --- | --- |
 | `README.md` | How a new person gets the app running on their machine |
 | `docs/decisions.md` | Choices we made and why, newest first - one short entry each |
-| `klink-prd.md` | Product requirements (draft v0.1 - being refined with David) |
+| `klink-prd.md` | Product requirements (draft v0.1 - being refined with David). **Not in git** - it's business-sensitive and this repo is public. It's git-ignored; if it's missing from your checkout, ask the human for a copy rather than recreating it from memory. |

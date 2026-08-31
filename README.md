@@ -1,6 +1,7 @@
 # Klink
 
-A mobile-first habit-tracking app. See `klink-prd.md` for the product spec and
+A mobile-first habit-tracking app. See `klink-prd.md` (shared directly, not in this
+public repo - ask Carolin or David for a copy) for the product spec, and
 `CLAUDE.md` for how this repo is worked on.
 
 ## Getting it running on your machine
